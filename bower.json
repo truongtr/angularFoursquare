@@ -1,0 +1,28 @@
+{
+  "name": "foursquare",
+  "version": "0.0.1",
+  "authors": [
+    "Truc Truong <trucfx@gmail.com>"
+  ],
+  "description": "A home task",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-animate": "~1.4.3",
+    "angular-loading-bar": "~0.8.0",
+    "angular-material": "master",
+    "angular-sanitize": "~1.4.4",
+    "angular-touch": "~1.4.4",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "notie":"*" 
+  }
+}
