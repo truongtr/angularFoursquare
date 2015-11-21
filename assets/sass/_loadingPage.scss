@@ -1,0 +1,129 @@
+@mixin anim1() {
+   0% {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@mixin anim2() {
+  50% {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@mixin anim3() {
+  20% {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes uil-ring-anim {
+  @include anim1();
+}
+@-moz-keyframes uil-ring-anim {
+  @include anim1();
+}
+@-ms-keyframes uil-ring-anim {
+  @include anim1();
+}
+@-webkit-keyframes uil-ring-anim2 {
+  @include anim2();
+}
+@-moz-keyframes uil-ring-anim2 {
+  @include anim2();
+}
+@-ms-keyframes uil-ring-anim2 {
+  @include anim2();
+}
+@-webkit-keyframes uil-ring-anim3 {
+  @include anim3();
+}
+@-moz-keyframes uil-ring-anim3 {
+  @include anim3();
+}
+@-ms-keyframes uil-ring-anim3 {
+  @include anim3();
+}
+
+
+.uil-ring-css {
+  background: none;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.uil-ring-css div.ring1 {
+  position: absolute;
+  display: block;
+  width: 144px;
+  height: 144px;
+  top: 14px;
+  left: 30px;   
+  border-radius: 80px;
+  box-shadow: 0 3px 0 0 #333333;
+  -ms-animation: uil-ring-anim 1s linear infinite;
+  -moz-animation: uil-ring-anim 1s linear infinite;
+  -webkit-animation: uil-ring-anim 1s linear infinite;
+  -o-animation: uil-ring-anim 1s linear infinite;
+  animation: uil-ring-anim 1s linear infinite;
+}
+.uil-ring-css div.ring3 {
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 160px;
+  top: 5px;
+  left: 20px;
+  border-radius: 80px;
+  box-shadow: 0 3px 0 0 #3333333;
+  -ms-animation: uil-ring-anim3 1s linear infinite;
+  -moz-animation: uil-ring-anim3 1s linear infinite;
+  -webkit-animation: uil-ring-anim3 1s linear infinite;
+  -o-animation: uil-ring-anim3 1s linear infinite;
+  animation: uil-ring-anim3 1s linear infinite;
+}
+.uil-ring-css div.ring2 {
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 151px;
+  top: 9px;
+  left: 24px;
+  border-radius: 80px;
+  box-shadow: 0 3px 0 0 #333333;
+  -ms-animation: uil-ring-anim2 1s linear infinite;
+  -moz-animation: uil-ring-anim2 1s linear infinite;
+  -webkit-animation: uil-ring-anim2 1s linear infinite;
+  -o-animation: uil-ring-anim2 1s linear infinite;
+  animation: uil-ring-anim2 1s linear infinite;
+}
