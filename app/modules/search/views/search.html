@@ -47,10 +47,7 @@
 
 
                     <md-card ng:repeat="(key, venue) in venues">
-                        <!--
-                        <div ng-controller="cardCtrl">
-                            <venue-card myVenue="{{venue}}"></venue-card>
-                        </div> -->
+
                         <md-card-content>
                             <h2 class="md-title">{{venue.name}}</h2>
                             <p>{{venue.location.address}}{{venue.location.address ? ', ':'' }}{{ venue.location.city }}{{venue.location.city ? ', ':'' }}{{venue.location.country}}</p>

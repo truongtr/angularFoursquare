@@ -7,7 +7,7 @@ var app = angular.module('app', [
     'ngTouch',
     'search.module',
     'ngMap',
-     'card.module'
+   // 'ngMock'
 
 ]);
 
@@ -50,7 +50,7 @@ app.config(function ($mdThemingProvider) {
 // using jquery inside angular without conflict
 // Use $jq instead of $
 
-var $jq = jQuery.noConflict();
+//var $jq = jQuery.noConflict();
 
 
 // Lazy console.log
