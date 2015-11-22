@@ -104,10 +104,10 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
                     })
 
                 }
-            d($scope.venues);
+
 
             } else {
-                console.log(data);
+
             }
         });
 
@@ -116,9 +116,17 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
         };
 
     }
+    $scope.$watch('searchString', function (val) {
+        d(val);
+        if(val.length>0){
+             $scope.search();
+
+        }
+
+    })
+
 
 }
-
 
 function cardCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
 
