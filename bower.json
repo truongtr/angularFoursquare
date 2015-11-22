@@ -23,7 +23,7 @@
     "angular-ui-router": "~0.2.15",
     "bootstrap": "~3.3.5",
     "jquery": "~2.1.4",
-    "angularjs-foursquare":"*",
-    "notie":"*" 
+    "notie":"*",
+    "ngmap":"*"
   }
 }

@@ -1,0 +1,52 @@
+<section class="main-contain timeline-page">
+    <div class="container">
+        <nav class="topnav"></nav>
+
+
+        <section class="main-timeline gr-5 gr-8@tablet gr-centered gr-12@mobile">
+
+
+
+            <div class="search-page clearfix">
+
+
+
+
+                    <form name="userForm">
+
+
+                        <div layout layout-sm="column">
+                            <md-input-container flex>
+                                <label>Search revenue nearby</label>
+
+                                <input placeholder="Write your search term here" ng-model="searchString" >
+                            </md-input-container>
+                        </div>
+
+
+                        <div layout layout-sm="column">
+                            <md-button class="md-raised md-primary" ng-click="search()" >SEARCH</md-button>
+                        </div>
+                    </form>
+
+
+
+                <div class="the-cards">
+                    <md-card ng:repeat="venue in venues">
+                        <md-card-content>
+                            <h2 class="md-title">{{venue.name}}</h2>
+                            <p>{{venue.location.address}}{{venue.location.address ? ', ':'' }}{{ venue.location.city }}{{venue.location.city ? ', ':'' }}{{venue.location.country}}</p>
+                        </md-card-content>
+                        <md-card-actions layout="row" layout-align="end center">
+                            <md-button class="md-raised md-primary md-button md-ink-ripple">Call</md-button></md-card-actions>
+                        </md-card-actions>
+                    </md-card>
+
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+</section>
+

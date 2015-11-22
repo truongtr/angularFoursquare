@@ -5,14 +5,20 @@ var app = angular.module('app', [
     'ngMaterial',
     'angular-loading-bar',
     'ngTouch',
-    'angularjs-foursquare'
+    //'angularMoment',
+    'search.module',
+    'ngMap'
+
 ]);
 
 app.constant('API', {
 
-    url: 'https://api.foursquare.com/v2/venues/search?client_id='+client_id+'&client_secret='+client_secret+'', 
-
+    url: 'https://api.foursquare.com/v2/venues',
+    search: '/search?',
+    clientId: client_id,
+    clientSecret: client_secret
 });
+
 
 app.config(function ($mdThemingProvider) {
     $mdThemingProvider.definePalette('amazingPaletteName', {
