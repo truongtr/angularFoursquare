@@ -28,7 +28,7 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
     });
 
     $scope.searchString = $stateParams.searchString;
-    if($scope.searchString.length>0){
+    if($scope.searchString.length!=null){
 
         search();
     }
@@ -47,6 +47,7 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
             client_secret: API.clientSecret,
             v: '20151101',
             ll:$scope.lat+","+$scope.lng,
+
         }
 
         // Encode URI for the URL
