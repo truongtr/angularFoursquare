@@ -21,11 +21,7 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
             });
         });
     }
-    NgMap.getMap().then(function(map) {
-        console.log(map.getCenter());
-        console.log('markers', map.markers);
-        console.log('shapes', map.shapes);
-    });
+
 
     $scope.searchString = $stateParams.searchString;
     if($scope.searchString != null){
@@ -116,11 +112,10 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
         };
 
     }
-    $scope.$watch('searchString', function (val) {
-        d(val);
-        if(val.length>0){
-             $scope.search();
+    $scope.$watch('searchString', function (newValue, oldValue) {
 
+        if(newValue.length>oldValue.length){
+            $scope.search();
         }
 
     })

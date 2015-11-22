@@ -13,9 +13,15 @@ function myEnter() {
 
                 event.preventDefault();
             }
-        });
+            if(event.which!=8){
 
+
+                console.log(event.which );
+            }
+
+        });
         element.focus();
+
     };
 
 
