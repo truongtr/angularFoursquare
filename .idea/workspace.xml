@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a505b7c1-5547-46f6-a294-b6b5252a7368" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tests/search/search.tests.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/card/card.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/card/card.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/card/card.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/views/card.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="$PROJECT_DIR$/app/app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/search/search.controller.js" afterPath="$PROJECT_DIR$/app/modules/search/search.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/search/search.directive.js" afterPath="$PROJECT_DIR$/app/modules/search/search.directive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/search/views/search.html" afterPath="$PROJECT_DIR$/app/modules/search/views/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/search/search.tests.js" afterPath="$PROJECT_DIR$/app/tests/search/search.tests.js" />
     </list>
     <ignored path="foursquare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,31 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.secret.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.secret.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="search.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/modules/search/search.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-25.851852">
               <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.route.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/modules/search/search.route.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.333333">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -125,14 +96,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.tests.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.tests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/tests/search/search.tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21499449">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32386363">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.secret.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.secret.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -184,6 +175,7 @@
         <option value="$PROJECT_DIR$/app/app.module.js" />
         <option value="$PROJECT_DIR$/app/modules/search/search.controller.js" />
         <option value="$PROJECT_DIR$/app/tests/search/search.tests.js" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -749,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.secret.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/modules/search/search.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.333333">
@@ -825,11 +809,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/search/search.tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21499449">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.secret.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32386363">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

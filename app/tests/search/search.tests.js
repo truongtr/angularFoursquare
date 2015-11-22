@@ -13,7 +13,7 @@ describe('Controller: searchCtrl', function() {
     }));
 
     it('should have items available on load', function () {
-       
+
 
     });
 })
