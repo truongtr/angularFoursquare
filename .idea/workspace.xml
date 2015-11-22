@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a505b7c1-5547-46f6-a294-b6b5252a7368" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/search/search.controller.js" afterPath="$PROJECT_DIR$/app/modules/search/search.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/search/views/search.html" afterPath="$PROJECT_DIR$/app/modules/search/views/search.html" />
     </list>
     <ignored path="foursquare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/modules/search/search.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.446527">
+            <state vertical-scroll-proportion="0.0">
               <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/modules/search/views/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.13590033">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -140,10 +140,10 @@
         <option value="$PROJECT_DIR$/app/modules/search/search.module.js" />
         <option value="$PROJECT_DIR$/app/modules/search/views/card.html" />
         <option value="$PROJECT_DIR$/app/modules/search/search.directive.js" />
-        <option value="$PROJECT_DIR$/app/modules/search/views/search.html" />
         <option value="$PROJECT_DIR$/assets/sass/styles.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/modules/search/search.controller.js" />
+        <option value="$PROJECT_DIR$/app/modules/search/views/search.html" />
       </list>
     </option>
   </component>
@@ -577,18 +577,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/search/views/search.html">
+    <entry file="file://$PROJECT_DIR$/app/modules/search/search.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/search/search.controller.js">
+    <entry file="file://$PROJECT_DIR$/app/modules/search/views/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.446527">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.13590033">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding />
         </state>
       </provider>
