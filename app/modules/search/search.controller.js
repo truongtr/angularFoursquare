@@ -28,7 +28,7 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
     });
 
     $scope.searchString = $stateParams.searchString;
-    if($scope.searchString.length!=null){
+    if($scope.searchString != null){
 
         search();
     }
