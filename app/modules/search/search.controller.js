@@ -1,4 +1,7 @@
-angular.module('search.module').controller('searchCtrl',['$rootScope','$scope','$http','API','$location','$stateParams','NgMap',searchCtrl])
+angular.module('search.module').controller('searchCtrl',['$rootScope','$scope','$http','API','$location','$stateParams','NgMap',searchCtrl]);
+
+angular.module('search.module').controller('cardCtrl',['$rootScope','$scope','$http','API','$location','$stateParams','NgMap',cardCtrl]);
+
 function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
     $scope.search = search;
     $scope.lat = localStorage.getItem("userLat");;
@@ -80,7 +83,8 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
                     totalDistance =  R * c / 1000; //distance in Km
                     totalDistance = Math.round(totalDistance*10)/10;
                     //partialDistance[i] = R * c / 1000;
-                    d($scope.venues[i].name+" "+totalDistance + "km")
+                    $scope.venues[i].distance = totalDistance;
+                  //  d($scope.venues[i].name+" "+totalDistance + "km")
 
 
                     // Encode URI for the URL
@@ -112,5 +116,10 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
 
     }
 
+}
 
+
+function cardCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
+
+    d($scope);
 }

@@ -5828,19 +5828,59 @@ body {
 /* line 48, ../sass/styles.scss */
 .main-contain {
   background: #504A4A;
+  background: url(../images/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-/* line 52, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
+h2.heading {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+/* line 60, ../sass/styles.scss */
 .main-timeline {
-  background: #CECDCD;
+  background: rgba(255, 255, 255, 0.86);
   display: block;
   margin: 0 auto;
+  padding-bottom: 30px;
+  min-height: 100vh;
 }
-/* line 56, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
+.main-timeline input {
+  /* firefox 19+ */
+  /* ie */
+}
+/* line 67, ../sass/styles.scss */
+.main-timeline input ::-webkit-input-placeholder {
+  color: #f00;
+}
+/* line 68, ../sass/styles.scss */
+.main-timeline input ::-moz-placeholder {
+  color: #f00;
+}
+/* line 69, ../sass/styles.scss */
+.main-timeline input :-ms-input-placeholder {
+  color: #f00;
+}
+/* line 70, ../sass/styles.scss */
+.main-timeline input input:-moz-placeholder {
+  color: #f00;
+}
+/* line 72, ../sass/styles.scss */
 .main-timeline h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   letter-spacing: .005em;
   font-weight: bold;
   color: #B17A7A;
+}
+/* line 79, ../sass/styles.scss */
+.main-timeline p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #4A4848;
 }

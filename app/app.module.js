@@ -5,9 +5,9 @@ var app = angular.module('app', [
     'ngMaterial',
     'angular-loading-bar',
     'ngTouch',
-    //'angularMoment',
     'search.module',
-    'ngMap'
+    'ngMap',
+     'card.module'
 
 ]);
 

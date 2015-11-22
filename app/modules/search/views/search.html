@@ -1,8 +1,16 @@
 <section class="main-contain timeline-page">
     <div class="container">
-        <nav class="topnav"></nav>
 
 
+        <md-content>
+            <md-toolbar>
+                <div class="md-toolbar-tools">
+                    <h2 class="heading">
+                        <span>Foursquare nearby search</span>
+                    </h2>
+                    </div>
+            </md-toolbar>
+        </md-content>
         <section class="main-timeline gr-5 gr-8@tablet gr-centered gr-12@mobile">
 
 
@@ -19,7 +27,7 @@
                             <md-input-container flex>
                                 <label>Search revenue nearby</label>
 
-                                <input placeholder="Write your search term here" ng-model="searchString" >
+                                <input placeholder="Write your search term here" ng-model="searchString" my-enter="doSomething()" >
                             </md-input-container>
                         </div>
 
@@ -27,22 +35,35 @@
                         <div layout layout-sm="column">
                             <md-button class="md-raised md-primary" ng-click="search()" >SEARCH</md-button>
                         </div>
+
+
+
                     </form>
 
 
 
                 <div class="the-cards">
-                    <md-card ng:repeat="venue in venues">
+
+
+
+                    <md-card ng:repeat="(key, venue) in venues">
+                        <!--
+                        <div ng-controller="cardCtrl">
+                            <venue-card myVenue="{{venue}}"></venue-card>
+                        </div> -->
                         <md-card-content>
                             <h2 class="md-title">{{venue.name}}</h2>
                             <p>{{venue.location.address}}{{venue.location.address ? ', ':'' }}{{ venue.location.city }}{{venue.location.city ? ', ':'' }}{{venue.location.country}}</p>
+                            <p>{{venue.stats.checkinsCount}} people checked in here.</p>
+                            <p> {{venue.distance }} km away.</p>
                         </md-card-content>
                         <md-card-actions layout="row" layout-align="end center">
-                            <md-button class="md-raised md-primary md-button md-ink-ripple">Call</md-button></md-card-actions>
+                            <a href="{{venue.url}}" target="_blank"><md-button class="md-raised md-primary md-button md-ink-ripple">Visit website</md-button></md-card-actions></md-card>
                         </md-card-actions>
                     </md-card>
 
                 </div>
+
             </div>
 
 
