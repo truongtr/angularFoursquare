@@ -6,7 +6,7 @@ Simple search app using foursquare API and AngularJS
 
 ## Setup
 
-Create a file at app/app.secret.js`
+Create a file at app/app.secret.js
 
 ```````````
 var client_id  = "YOUR_CLIENT_ID";
