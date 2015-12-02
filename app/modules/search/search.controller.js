@@ -40,7 +40,7 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
     function search() {
 
         // Change URL location
-        $location.url('/s/'+$scope.searchString);
+        $location.path('/s/'+$scope.searchString);
 
         // Data for sending to the API
         var data = {
