@@ -15,7 +15,7 @@ function myEnter() {
             }
 
         });
-        element.focus();
+       // element.focus();
 
     };
 

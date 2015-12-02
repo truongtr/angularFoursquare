@@ -1,7 +1,7 @@
-angular.module('search.module').controller('searchCtrl',['$rootScope','$scope','$http','API','$location','$stateParams','NgMap',searchCtrl]);
+angular.module('search.module').controller('searchCtrl',['$rootScope','$scope','$http','API','$location','$stateParams','NgMap','$state',searchCtrl]);
 
 
-function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
+function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap,$state){
     // variables
     $scope.search = search;
     $scope.searchString ="";
@@ -40,8 +40,9 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap){
     function search() {
 
         // Change URL location
-        $location.path('/s/'+$scope.searchString);
-
+        // Remove this to increase speed
+       // $location.path('/s/'+$scope.searchString);
+        $state.go('searchString');
         // Data for sending to the API
         var data = {
             query: $scope.searchString,
