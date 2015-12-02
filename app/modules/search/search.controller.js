@@ -42,7 +42,7 @@ function searchCtrl($rootScope, $scope, $http,API,$location,$stateParams,NgMap,$
         // Change URL location
         // Remove this to increase speed
        // $location.path('/s/'+$scope.searchString);
-        $state.go('searchString');
+        
         // Data for sending to the API
         var data = {
             query: $scope.searchString,
